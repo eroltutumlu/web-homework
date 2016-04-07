@@ -14,3 +14,7 @@ a {
 .left {
     float:left;
 }
+
+.clearfix{
+    clear: both;
+}

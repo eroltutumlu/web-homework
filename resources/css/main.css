@@ -1,0 +1,41 @@
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #4CAF50;
+    overflow: hidden;
+    
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    color: white;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+nav ul li a:hover{
+    background-color:white;
+    color: #4CAF50;
+}
+
+.active {
+    
+    /*whatever you want color*/
+}
+
+.brand{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    line-height: 1.2em;
+}

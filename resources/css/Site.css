@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: #F1F1F1;
+    font-family: 'Helvetica Neue', Helvetica, Arial;
 }
 
 a {
@@ -17,4 +18,20 @@ a {
 
 .clearfix{
     clear: both;
+}
+
+.margin5px-right{
+    margin-right: 5px;
+}
+
+.margin5px-left{
+    margin-left: 5px;
+}
+
+.margin5px-top{
+    margin-top: 5px;
+}
+
+.margin5px-bottom{
+    margin-bottom: 5px;
 }

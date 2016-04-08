@@ -21,19 +21,55 @@
             
             <div id="leftAside" class="left">
 
-                                <div class="panel">
-                    <span>asd</span>
-                    <hr>
-                    
-                                    <p>Vivamus vel neque dictum, iaculis quam et, tincidunt urna. Vivamus at lorem a diam luctus facilisis. Suspendisse condimentum tellus id semper feugiat. Fusce a ex orci. Fusce eu tristique eros. Nam at cursus arcu. Ut convallis lacus sit amet fermentum fermentum. Aenean ac nunc sed lacus tincidunt tempor ac eget dui.</p>
-
-                </div>                                <div class="panel">
-                    <span>asd</span>
-                    <hr>
-                    
-                                    <p>Vivamus vel neque dictum, iaculis quam et, tincidunt urna. Vivamus at lorem a diam luctus facilisis. Suspendisse condimentum tellus id semper feugiat. Fusce a ex orci. Fusce eu tristique eros. Nam at cursus arcu. Ut convallis lacus sit amet fermentum fermentum. Aenean ac nunc sed lacus tincidunt tempor ac eget dui.</p>
-
+                <div class="panel">
+                    <div class="panelTitle welcomeLinear">Hoş geldiniz</div>
+                    <div class="panelContent">
+                        <p>Vivamus vel neque dictum, iaculis quam et, tincidunt urna. Vivamus at lorem a diam luctus facilisis.</p>
+                    </div>
+             
                 </div>
+                
+                <div class="panel">
+                    <div class="panelTitle loginLinear"><i class="fa fa-sign-in margin5px-right"></i>Giriş Yap</div>
+                    <div class="panelContent">
+                        
+                        <form action="#" method="">
+                            <div class="login-email">
+                                <i class="fa fa-envelope-o">&nbsp;Email Adresi</i>
+                                <input type="email" required placeholder="Email">
+                            </div>
+                            <div class="login-pass">
+                                <span class="fa fa-key">&nbsp;Password</span> <input type="password" required placeholder="Password">
+                            </div>
+
+                            <div class="login-submit">
+                                <input type="submit" value="Giriş Yap" required placeholder="Password">
+                            </div>
+                        </form>
+                        
+                        <br>
+                        
+                        <div class="">
+                            <a href="#">Kayıt ol</a>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div class="panel">
+                    <div class="panelTitle infoLinear"><i class="fa fa-user-secret margin5px-right"></i>Bilgileriniz</div>
+                    <div class="panelContent">
+                        <dl>
+                            <dt>Adres</dt>
+                            <dd id="ddAdress"></dd>
+                            <dt>Ip Adresin</dt>
+                            <dd id="ddIpAdress"></dd>
+                            <dt>Tarayıcın</dt>
+                            <dd id="ddBrowser"></dd>
+                        </dl>
+                    </div>
+                </div>
+                
             </div>
             
             <div id="mainContent" class="left">
@@ -53,6 +89,7 @@
         </footer>
         
         <script src="resources/js/main.js"></script>
+        <script src="resources/js/userinfo.js"></script>
         <script src="resources/js/slider.js"></script>
     </body>
 </html>

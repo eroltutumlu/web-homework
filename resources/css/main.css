@@ -63,18 +63,40 @@ footer{
 }
 
 .panel{
-    background-color: white;
-    border:1px solid transparent;
+    border:1px solid #CCC;;
     margin-bottom: 20px;
-
 }
 
-.panel-body {
-  padding: 15px;
+.panelTitle{
+    font-size:15px;
+    text-align: left;
+    color:#FFF;
+    padding: 6px;
+    border-bottom: 1px solid #5D5F60;
 }
-.panel-heading {
-  padding: 10px 15px;
-  border-bottom: 1px solid transparent;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+
+.welcomeLinear {
+    background: -webkit-linear-gradient(#36B0D5, #3073AD,#36B0D5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#36B0D5, #3073AD,#36B0D5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#36B0D5, #3073AD,#36B0D5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#36B0D5, #3073AD,#36B0D5); /* Standard syntax */
+}
+
+.loginLinear {
+    background-color: #ECCFCF;
+    color:#C06342;
+    font-weight: bold;
+}
+
+.infoLinear{
+    background-color: #C8E5BC;
+    font-weight: bold;
+    color:black;
+
+    
+}
+
+.panelContent{
+    padding: 10px;
+    background-color: #EDEDED;
 }

@@ -49,7 +49,7 @@ nav ul li a:hover{
 }
 
 #mainContent{    
-    background-color: white;
+   /* background-color: white; */
     margin-left: 2%;
     padding: 10px;
     width: 69%;
@@ -99,4 +99,9 @@ footer{
 .panelContent{
     padding: 10px;
     background-color: #EDEDED;
+}
+
+form input {
+    padding: 3px;
+    width: 80%;
 }

@@ -1,6 +1,5 @@
 "use strict"
 
-
 var userInfo = function(){
     
     var getDomElements = {

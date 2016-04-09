@@ -82,6 +82,15 @@ footer{
     background: linear-gradient(#36B0D5, #3073AD,#36B0D5); /* Standard syntax */
 }
 
+.quickLinear {
+    background: -webkit-linear-gradient(#FBA43B, #FFA200,#FBA43B); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FBA43B, #FFA200,#FBA43B); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FBA43B, #FFA200,#FBA43B); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FBA43B, #FFA200,#FBA43B); /* Standard syntax */   
+    font-weight: bold;
+    color:white;
+}
+
 .loginLinear {
     background-color: #ECCFCF;
     color:#C06342;
@@ -135,8 +144,23 @@ form input {
     border-radius: 4px;
 }
 
-
 footer a {
     color:#000;
 }
+
+.lists{
+    padding: 0 !important;
+}
+
+.lists .list-item {
+    color: #3C899D;
+    display:block;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    background-color: #DFF0D8;
+}
+
+
+.lists .list-item:hover {font-weight: bold;}
+
 

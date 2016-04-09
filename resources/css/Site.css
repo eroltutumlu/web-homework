@@ -35,3 +35,11 @@ a {
 .margin5px-bottom{
     margin-bottom: 5px;
 }
+
+.display {
+    display:inline; 
+}
+
+.notDisplay {
+    display: none;
+}

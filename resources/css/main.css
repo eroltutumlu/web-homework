@@ -92,8 +92,6 @@ footer{
     background-color: #C8E5BC;
     font-weight: bold;
     color:black;
-
-    
 }
 
 .panelContent{
@@ -104,4 +102,35 @@ footer{
 form input {
     padding: 3px;
     width: 80%;
+}
+
+.Contents {
+    padding: 5px;
+    line-height: 1.2em;
+    overflow: hidden;
+    background-color:#FFF;
+}
+
+.ContentTitle h3 {
+    margin-bottom: 0;
+    
+}
+
+.ContentSubtitle {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.ContentImages {
+    width: 100%;
+}
+
+.img-thumbnail{
+    
+    display: inline-block;
+    float: left;
+    padding: 2px;
+    margin-right: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }

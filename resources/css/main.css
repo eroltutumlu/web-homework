@@ -58,7 +58,7 @@ nav ul li a:hover{
 footer{
     overflow: hidden;
     margin-top: 10px !important;
-    padding: 50px;
+    padding-left: 50px;
     background-color: #5D5F60;
 }
 
@@ -134,3 +134,9 @@ form input {
     border: 1px solid #ddd;
     border-radius: 4px;
 }
+
+
+footer a {
+    color:#000;
+}
+

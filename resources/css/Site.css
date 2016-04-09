@@ -43,3 +43,7 @@ a {
 .notDisplay {
     display: none;
 }
+
+.center {
+    text-align: center;
+}

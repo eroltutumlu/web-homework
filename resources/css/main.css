@@ -192,8 +192,12 @@ table tr:not(#theadBaslik):hover{
     width: 100%;
 }
 
+.thumb-title{
+    text-align: center;
+    padding-top: 5px;
+}
+
 .img-thumbnail{
-    
     display: inline-block;
     float: left;
     padding: 2px;
@@ -201,6 +205,29 @@ table tr:not(#theadBaslik):hover{
     border: 1px solid #ddd;
     border-radius: 4px;
 }
+
+.divThumbnail{
+    display: inline-block;
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 2px;
+    margin-right: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.divThumbnail img {
+    width:180px !important;
+    height: 180px !important;
+}
+.thumb-desc{
+    text-align: center;
+    margin-top: 5px;
+ 
+}
+
 
 footer a {
     color:#000;

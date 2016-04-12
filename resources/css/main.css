@@ -113,6 +113,64 @@ form input {
     width: 80%;
 }
 
+.form-register {
+   
+    
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form-register label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+
+.form-register input, select{
+    
+    width: 50%;
+    
+}
+
+.form-register input[type=submit],input[type=reset]{
+    
+    width: 30%;
+    
+}
+
+.form-register li {
+    list-style-type: none;
+    display: block;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+input[type=radio], input[type=checkbox]{
+    border: 0px;
+    width: auto;
+}
+
+
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    padding: 0;
+}
+
+table thead {
+ background-color: aqua;
+}
+
+table tr td {
+    padding: 10px;
+}
+
+table tr:not(#theadBaslik):hover{
+    background-color: gray;
+    color: #fff;
+}
+
 .Contents {
     padding: 5px;
     line-height: 1.2em;
